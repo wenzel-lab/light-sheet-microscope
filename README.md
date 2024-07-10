@@ -2,7 +2,7 @@
 Appropriate technology open source light sheet microscope design based on OpenUC2, for high throughput droplet cytometry
 
 <p align="left">
-<img src="./images/cube-arangement.png" width="400">
+<img src="./images/cube-arrangement.png" width="400">
 </p>
 
 1) Fiber coupler, colimator, 5mm mask
