@@ -7,8 +7,8 @@ This is a modification of the OpenUC2 light sheet design - a project that can be
 </p>
 
 Illumination arm:
-1) Fiber coupler, colimator, 5mm mask
-2) Powell-lense and optional slit
+1) Fiber coupler, colimator, 5mm mask, all mounted on one threaded UC2 insert. Fiber coupler and colimator: Thorlabs AD11F with F280FC-A. The 5mm mask was 3d printed to cut the beam to the optimal size for the Powell lense.
+3) Powell-lense and optional slit
    <p align="left">
   <img src="./images/Powell_lense_aligner.jpg" height="300"> <img src="./images/adjustable_slit.gif" height="300" width="300">
   </p>
