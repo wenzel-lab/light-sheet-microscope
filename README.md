@@ -1,4 +1,4 @@
-# CLAVE - Cube-based Light-sheet Apparatus for Versatile 3d-Experiments [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# CLAVE - Cube-based Light-sheet Apparatus for Versatile 3d-imaging Experiments [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 <p align="left">
 <img src="./images/CLAVE.jpg" width="150">
 </p>
