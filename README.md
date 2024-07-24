@@ -36,7 +36,7 @@ Detection arm:
 11) 1- Optical filter
    2- Tube-lense and camera
    
-There is also crontol electronics, a playstation controller, and an a computer running Ubuntu
+There is also crontol electronics, a playstation controller, and a computer running Ubuntu
 
 ## Contribute
 
