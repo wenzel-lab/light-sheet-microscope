@@ -12,7 +12,11 @@ Follow us! [#twitter](https://twitter.com/WenzelLab), [#YouTube](https://www.you
 ## Build your own!
 
 <p align="left">
-<img src="./images/cube-arrangement.png" width="400">
+<img src="./images/light-sheet.png" width="400">
+</p>
+
+<p align="left">
+<img src="./images/cube-arrangement.png" width="300">
 </p>
 
 Illumination arm:
@@ -36,8 +40,17 @@ Detection arm:
 10) 1- 5x Objective
   2- Focus motor 
 11) 1- Optical filter
+
+   <p align="left">
+  <img src="./images/filter-holder.jpeg" height="300" width="300">
+  </p>
+  
    2- Tube-lense and camera
    
+   <p align="left">
+  <img src="./images/tubelense-double-cube.jpeg" height="300" width="300">
+  </p>
+  
 There is also crontol electronics, a playstation controller, and a computer running Ubuntu
 
 ## Contribute
