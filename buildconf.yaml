@@ -1,0 +1,46 @@
+Authors:
+  - Tobias Wenzel
+  - Bennedict Diederich
+  - Matías Hurtado-Labarca
+AutoCompleteSubNav: false
+CustomCategories:
+  Consumable:
+    DisplayName: Consumables
+    Reuse: true
+  Electronic:
+    DisplayName: Electronic Components
+    Reuse: false
+  LasercutPart:
+    DisplayName: Laser cut Parts
+    Reuse: true
+  Material:
+    DisplayName: Materials
+    Reuse: false
+  Mechanic:
+    DisplayName: Mechanical Components
+    Reuse: false
+  Optical:
+    DisplayName: Optical Components
+    Reuse: false
+  PrintedPart:
+    DisplayName: Printed Parts
+    Reuse: false
+  PrintedTool:
+    DisplayName: Printed Tools
+    Reuse: true
+  SubAssembly:
+    DisplayName: Sub-Assemblies
+    Reuse: false
+DefaultCategory: part
+HoverColor: '#555555'
+License: CERN-OHL-W-2.0
+LicenseFile: LICENSE.md
+Navigation:
+  - Link: gallery.md
+    Title: Parts Gallery
+  - Link: Prepare.md
+    Title: Prepare the pieces
+  - Link: UC2files.md
+    Title: Build your UC2
+PrimaryColor: '#f1502f'
+SecondaryColor: '#cccccc'
