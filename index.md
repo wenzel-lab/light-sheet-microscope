@@ -19,6 +19,13 @@ Appropriate technology open source light sheet microscope design, for 3d imaging
 ![](images/cube-arrangement.png)
 
 
+##Navigation:
+
+ * [Parts Gallery](gallery.md)
+
+* [Prepare the pieces](Prepare.md)
+
+* [Build your UC2](UC2files.md)
 
 ---
 
