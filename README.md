@@ -11,6 +11,8 @@ Follow us! [#twitter](https://twitter.com/WenzelLab), [#YouTube](https://www.you
 
 ## Build your own!
 
+Please find the detailed [online documentation here](https://wenzel-lab.github.io/light-sheet-microscope/).
+
 <p align="left">
 <img src="./images/light-sheet.png" width="500">
 </p>
