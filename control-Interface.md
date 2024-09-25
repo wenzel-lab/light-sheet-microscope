@@ -1,4 +1,6 @@
-# To assemble this piece, go to our "laser illumination" documentation
+# Laser Control Interface
+
+##To assemble this piece, go to our "laser illumination" documentation
 
 
 

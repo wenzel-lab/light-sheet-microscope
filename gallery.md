@@ -6,9 +6,9 @@
 |||
 |---|---|
 |[Adjustable_Slit](adjustable_slit.md)|[Camera container](Camera-container.md)|
-|[![](images/Adjustable_Slit/adjustable_slit.jpg)](adjustable_slit.md)|[![](images/TubeLens-DoubleCube/TubeLen-DoubleCube.jpeg)](Camera-container.md)
-|[Control-Interface](control-Interface.md) | [Cylindrical Lens Flex Holder](Cylindrical_Lens_Flex.md)
-| [![](images/control-Interface/control-Interface.jpg)](control-Interface.md) | [![](images/Cylindrical_Lens/cylindrical_len1.jpg)](Cylindrical_Lens_Flex.md)
+|[![](images/Adjustable_Slit/adjustable_slit.jpg)](adjustable_slit.md)|[![](images/TubeLens-DoubleCube/TubeLens-DoubleCube.jpeg)](Camera-container.md)
+|[Laser Control-Interface](control-Interface.md) | [Cylindrical Lens Flex Holder](Cylindrical_Lens_Flex.md)
+| [![](images/control-Interface/control-Interface.jpg)](control-Interface.md) | [![](images/Cylindrical_Lens/cylindrical_lens1.jpg)](Cylindrical_Lens_Flex.md)
 |[Filter Holder](filter_holder.md)|[Kinematic Mirrors](Kinematic_Mirrors.md) 
 |[![](images/Filter_Holder/filter-holder.jpeg)](filter_holder.md)|[![](images/Kinematic_Mirrors/Kinematic_Part_Main2.jpg)](Kinematic_Mirrors.md)|
 |[Power lens XY aligner](Power_lens_XY_aligner.md)|[Stepper_Motor_Container](Stepper_Motor_Container.md)

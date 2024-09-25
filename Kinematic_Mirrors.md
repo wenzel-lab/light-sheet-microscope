@@ -1,5 +1,7 @@
 #Kinematic Mounts
 
+Cube insert
+
 {{BOM}}
 
 [M3x20mm screw]: parts/mech/M3-20.md "{cat:mechanic}"

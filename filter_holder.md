@@ -5,7 +5,7 @@ Cube insert
 {{BOM}}
 
 
-[Filter len]: parts/optics/Filter_len.md "{cat: Optical}"
+[Filter lens]: parts/optics/Filter_lens.md "{cat: Optical}"
 
 [Filter slide holder]:models/Filter_Holder/Holder-Filter-Slide-25-mm.stl "{previewpage}"
 [Filter Slide]:models/Filter_Holder/Filter-Slide-25-mm.stl "{previewpage}"
@@ -16,7 +16,7 @@ Cube insert
 To assemble this piece is simple. 
 
 ##Step 1:
-Place the [Filter len]{qty:1} that you want to use, into the [Filter Slide]{qty: 1, cat:printedpart}
+Place the [Filter lens]{qty:1} that you want to use, into the [Filter Slide]{qty: 1, cat:printedpart}
 
 ##Step 2:
 Place that into the [Filter slide holder]{qty: 1, cat:printedpart}
