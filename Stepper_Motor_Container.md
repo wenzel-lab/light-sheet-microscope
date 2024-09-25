@@ -72,9 +72,14 @@
 
 ## The Objective:{PageStep}
 
-Screw the desired [objective][Objective]{qty: 1} in the [Objective arm]
+Carefully screw the needed [objective][Objective]{qty: 1} into the [Objective arm].
+
 
 ![](images/Stepper_Motor_Container/objective-arm-installed.jpg)
+
+>! Do not touch the lens directly to avoid getting it dirty or scratched.
+
+---
 
 #Now it's ready!
 

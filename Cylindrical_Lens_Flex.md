@@ -30,6 +30,8 @@ Take the flex desired piece, which can be the [Lens - Holder]{qty: 1, cat: Print
 ##Place the lens:{pagestep}
 Take the [LJ1328L2-A][LJ1328L2-A Lens]{qty:1} or the [LJ1567L2-A][LJ1567L2-A Lens]{qty:1} lens and place it into the [Lens - Holder] or [Taller Lens - Holder] respectively.
 
+>! Do not touch the lens directly to avoid getting it dirty or scratched.
+
 ## Put it in a cube!:{pagestep}
 
 Take one of your [UC2 cubes](UC2files.md) and place your assembled piece in it. You can purchase the cube or 3D print it, either option works fine.
