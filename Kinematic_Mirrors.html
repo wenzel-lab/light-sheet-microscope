@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CLAVE Microscope</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+
+    <link href="./static/style.css" rel="stylesheet">
+                <link href="./assets/style.css" rel="stylesheet">
+              <style>
+    .nav-list a.navhome, .sub-nav-list a.navhome{
+      background-color: #f1502f !important;
+    }
+    .gallery-thumb img:hover {
+      border: 4px solid #f1502f;
+    }
+  </style>
+<style>
+  .nav-list a.active, .sub-nav-list a.active {
+    background-color: #cccccc !important;
+  }
+</style>
+<style>
+  .nav-list a:hover:not(.active), .sub-nav-list a:hover:not(.active) {
+    background-color: #555555 !important;
+  }
+</style>
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper header-wrapper" >
+        <div class=header-text>
+   
+    <h1 class="site-title">CLAVE Microscope</h1>
+   
+    <p class="author">by Tobias Wenzel, Bennedict Diederich, and Matías Hurtado-Labarca</p>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        CLAVE Microscope
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./gallery.html">
+        Parts Gallery
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./Prepare.html">
+        Prepare the pieces
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./UC2files.html">
+        Build your UC2
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1 id="kinematic-mounts">Kinematic Mounts</h1>
+<p>Cube insert</p>
+<div class="pagebom">
+<h3 id="tool">Tools</h3>
+<ul>
+<li>1 <a Class="bom" href="parts/tools/2.5mmBallEndAllenKey.html">2.5mm Ball-end Allen key</a> </li>
+<li>1 <a Class="bom" href="parts/tools/soldiron.html">Soldering iron</a> </li>
+<li>1 <a Class="bom" href="parts/tools/tweezers.html">Tweezers</a> </li>
+</ul>
+<h3 id="mechanic">Mechanical Components</h3>
+<ul>
+<li>3 <a Class="bom" href="parts/mech/Hinsert.html">Heat insert</a> </li>
+<li>3 <a Class="bom" href="parts/mech/nuts.html">M3 nut</a> </li>
+<li>3 <a Class="bom" href="parts/mech/M3-20.html">M3x20mm screw</a> </li>
+<li>4 <a Class="bom" href="parts/mech/magnets.html">Round-Magnets</a> </li>
+</ul>
+<h3 id="printedpart">Printed Parts</h3>
+<ul>
+<li>1 <a Class="bom" href="models/Kinematic_Mirrors/Diagonal-Kinematic-Mount-LIBREhub.html">Diagonal-Kinematic-Mount-LIBREhub</a> </li>
+<li>1 <a Class="bom" href="models/Kinematic_Mirrors/Diagonal-Mirror-Surface-LIBREhub.html">Diagonal-Mirror-Surface-LIBREhub</a> </li>
+<li>3 <a Class="bom" href="models/Kinematic_Mirrors/Knob.html">Knob</a> </li>
+<li>1 <a Class="bom" href="models/Kinematic_Mirrors/Side-Kinematic-Mount-LIBREhub.html">Side-Kinematic-Mount-LIBREhub</a> </li>
+<li>1 <a Class="bom" href="models/Kinematic_Mirrors/Side-Mirror-Surface-LIBREhub.html">Side-Mirror-Surface-LIBREhub</a> </li>
+</ul>
+</div>
+<p>When using lasers, refractive elements for the beams are essential, even more the ones that can help control how and where exactly the light goes. In these models, the mirror can be calibrated from 3 knobs, 2 gold ones to move and a black one that is to be static</p>
+<p><img alt="" src="images/Kinematic_Mirrors/Kinematic_Parts5.jpg" title="" /></p>
+<p>For this controlling system, we have two options depending on the user's needs.</p>
+<ul>
+<li>
+<h2 id="diagonal-mirror">Diagonal Mirror:</h2>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/Kinematic_Mirrors/Kinematic_Part_Main2.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show0').src=this.src" src="images/Kinematic_Mirrors/Kinematic_Parts4.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show0" src="images/Kinematic_Mirrors/Kinematic_Part_Main2.jpg" alt=""/></div>
+
+<ul>
+<li>
+<h2 id="side-mirror">Side Mirror:</h2>
+</li>
+</ul>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/Kinematic_Mirrors/Kinematic_Parts_Main.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/Kinematic_Mirrors/Kinematic_Parts3.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/Kinematic_Mirrors/Kinematic_Parts7.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show1').src=this.src" src="images/Kinematic_Mirrors/Kinematic_Parts1.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show1" src="images/Kinematic_Mirrors/Kinematic_Parts_Main.jpg" alt=""/></div>
+
+<hr />
+<h1 id="assemble-the-kinematic-mounts">Assemble the kinematic mounts:</h1>
+<h2 class="page-step" id="knobs">Step 1: Knobs:</h2>
+<p>Place the <a href="parts/mech/nuts.html">nut</a> into the <a href="models/Kinematic_Mirrors/Knob.html">knob</a> and insert the <a href="parts/mech/M3-20.html">screw</a> tightly using the <a href="parts/tools/2.5mmBallEndAllenKey.html">Allen Key</a>:</p>
+<p><img alt="" src="images/Kinematic_Mirrors/knob.gif" title="" /></p>
+<div class="help-block">
+<p>Please ensure that your screws are magnetic, as non-magnetic screws will not function properly with the magnets.</p>
+</div>
+<h2 class="page-step" id="heat-set-inserts">Step 2: Heat set inserts:</h2>
+<p>Use the <a href="parts/tools/soldiron.html">Soldering iron</a> to place the <a href="parts/mech/Hinsert.html">heat inserts</a> into the <a href="models/Kinematic_Mirrors/Diagonal-Kinematic-Mount-LIBREhub.html">diagonal kinematic mount</a> or the <a href="models/Kinematic_Mirrors/Side-Kinematic-Mount-LIBREhub.html">side kinematic mount</a>, depending on the model you need.</p>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/Kinematic_Mirrors/hinserts.gif" alt="" />
+    <img onmouseover="getElementById('gallery-show2').src=this.src" src="images/Tools-and-Parts/heat-set_insert.gif" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show2" src="images/Kinematic_Mirrors/hinserts.gif" alt=""/></div>
+
+<h2 class="page-step" id="place-the-magnets">Step 3: Place the magnets:</h2>
+<p>Place the <a href="parts/mech/magnets.html">Round-Magnets</a> in the <a href="models/Kinematic_Mirrors/Diagonal-Mirror-Surface-LIBREhub.html">Diagonal-Mirror-Surface</a> holes and press the flat side surface against the table to ensure that the surface stays completely flat. If you want to mount them for the <a href="models/Kinematic_Mirrors/Side-Kinematic-Mount-LIBREhub.html">side kinematic mount</a>, follow the same steps on the <a href="models/Kinematic_Mirrors/Side-Mirror-Surface-LIBREhub.html">Side-Mirror-Surface</a> but press the magnets into the piece and against the table so all the balls reach the opposite surface.</p>
+<div class="caution-block">
+<p><strong>Caution</strong> 
+The mirror surface must be flat so the mirror itself can be mounted</p>
+</div>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/Kinematic_Mirrors/magnets.gif" alt="" />
+    <img onmouseover="getElementById('gallery-show3').src=this.src" src="images/Kinematic_Mirrors/magnets2.gif" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show3" src="images/Kinematic_Mirrors/magnets.gif" alt=""/></div>
+<h2 class="page-step" id="mount-the-knobs">Step 4: Mount the knobs:</h2>
+<p>Be sure to leave them all at the same approximate distance so they are easier to use later.</p>
+<p><img alt="" src="images/Kinematic_Mirrors/knobs-inserted.gif" title="" /></p>
+<h2 class="page-step" id="mount-the-mirror">Step 5: Mount the Mirror:</h2>
+<ol>
+<li>Add some double-sided tape to the unprotected side of the mirror, peel off the plastic, and add it to the flat surface of the <a href="models/Kinematic_Mirrors/Diagonal-Mirror-Surface-LIBREhub.html">Diagonal-Mirror-Surface</a></li>
+</ol>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/Kinematic_Mirrors/Peel-Tape.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show4').src=this.src" src="images/Kinematic_Mirrors/Tape-Adding.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show4" src="images/Kinematic_Mirrors/Peel-Tape.jpg" alt=""/></div>
+<ol>
+<li>Once added, peel off the protective plastic from the mirror with the <a href="parts/tools/tweezers.html">tweezers</a></li>
+</ol>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show5').src=this.src" src="images/Kinematic_Mirrors/Mirror-Plastic.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show5').src=this.src" src="images/Kinematic_Mirrors/Plastic-Peeling.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show5" src="images/Kinematic_Mirrors/Mirror-Plastic.jpg" alt=""/></div>
+<ol>
+<li>Place the mirror holder onto the screw tips of the <a href="models/Kinematic_Mirrors/Diagonal-Kinematic-Mount-LIBREhub.html">kinematic mount</a>, the <a href="parts/mech/magnets.html">magnets</a> will hold it in position.</li>
+</ol>
+<div class="caution-block">
+<p><strong>Caution</strong> 
+If the screw tips are not flat, the kinematic mirrors will not be as precise as they can be; therefore, it is necessary to <a href="Sanding.html" title=""><strong>sand them</strong></a></p>
+</div>
+<div class="gallery-thumb">
+    <img onmouseover="getElementById('gallery-show6').src=this.src" src="images/Kinematic_Mirrors/Mounting.jpg" alt="" />
+    <img onmouseover="getElementById('gallery-show6').src=this.src" src="images/Kinematic_Mirrors/Mirror-mounted.jpg" alt="" />
+</div>
+<div class="gallery-show"><img id="gallery-show6" src="images/Kinematic_Mirrors/Mounting.jpg" alt=""/></div>
+<h2 class="page-step" id="put-it-in-a-cube">Step 6: Put it in a cube!:</h2>
+<p>Take one of your <a href="UC2files.html" title="">UC2 cubes</a> and place your assembled Kinematic Mirror in it. You can purchase the cube or 3D print it, either option works fine.</p>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+    <p class="author">©2024 Tobias Wenzel, Bennedict Diederich, and Matías Hurtado-Labarca</p>
+    <p class="license">CLAVE Microscope is released under <a href="LICENSE.html">CERN-OHL-W-2.0</a>.</p>
+
+    </div>
+</footer></body>
+</html>

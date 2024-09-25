@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CLAVE Microscope</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/favicon.ico" />
+
+    <link href="./static/style.css" rel="stylesheet">
+                <link href="./assets/style.css" rel="stylesheet">
+              <style>
+    .nav-list a.navhome, .sub-nav-list a.navhome{
+      background-color: #f1502f !important;
+    }
+    .gallery-thumb img:hover {
+      border: 4px solid #f1502f;
+    }
+  </style>
+<style>
+  .nav-list a.active, .sub-nav-list a.active {
+    background-color: #cccccc !important;
+  }
+</style>
+<style>
+  .nav-list a:hover:not(.active), .sub-nav-list a:hover:not(.active) {
+    background-color: #555555 !important;
+  }
+</style>
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="wrapper header-wrapper" >
+        <div class=header-text>
+   
+    <h1 class="site-title">CLAVE Microscope</h1>
+   
+    <p class="author">by Tobias Wenzel, Bennedict Diederich, and Matías Hurtado-Labarca</p>
+</div>
+            </div>
+</header>
+<div class="page-content">
+            <div>
+            <nav class="sidebar">
+                <a href="#" class="menu-icon">
+                <svg viewBox="0 0 18 15">
+                    <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+                    <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+                    <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+                </svg>
+                </a>
+                <ul class="nav-list">
+                <li>
+    <a class="navhome" href="./">
+        CLAVE Microscope
+    </a>
+</li>
+<li class="not-active">
+    <a class="not-active" href="./gallery.html">
+        Parts Gallery
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./Prepare.html">
+        Prepare the pieces
+    </a>
+    </li>
+<li class="not-active">
+    <a class="not-active" href="./UC2files.html">
+        Build your UC2
+    </a>
+    </li>
+
+                </ul>
+            </nav>
+        </div>
+        <div class="wrapper">
+    <h1 id="stepper-motor-container-y-axis-control">Stepper Motor Container: Y axis control</h1>
+<div class="pagebom">
+<h3 id="tool">Tools</h3>
+<ul>
+<li>1 <a Class="bom" href="parts/tools/2mmBallEndAllenKey.html">2 mm Ball-end Allen key</a> </li>
+<li>1 <a Class="bom" href="parts/tools/2.5mmBallEndAllenKey.html">2.5 mm Ball-end Allen key</a> </li>
+</ul>
+<h3 id="electronic">Electronic Components</h3>
+<ul>
+<li>1 <a Class="bom" href="parts/elect/linear-stepper-motor.html">Stepper Motor</a> </li>
+</ul>
+<h3 id="mechanic">Mechanical Components</h3>
+<ul>
+<li>1 <a Class="bom" href="parts/mech/Axis-Control.html">Axis Control</a> </li>
+<li>1 <a Class="bom" href="parts/mech/Adapter_LBX40-21H4U.html">LBX40-21H4U adapter</a> </li>
+<li>6 <a Class="bom" href="parts/mech/M2.5-5.html">M2.5 x 5mm screw</a> </li>
+<li>7 <a Class="bom" href="parts/mech/M3-10.html">M3 x 10mm screw</a> </li>
+<li>4 <a Class="bom" href="parts/mech/M3-12.html">M3 x 12mm screw</a> </li>
+</ul>
+<h3 id="optical">Optical Components</h3>
+<ul>
+<li>1 <a Class="bom" href="parts/optics/objective.html">Objective</a> </li>
+</ul>
+<h3 id="printedpart">Printed Parts</h3>
+<ul>
+<li>1 <a Class="bom" href="models/Stepper_Motor_Container/LightSheet_Remake-Inner_Motor_Holder.html">Inner Motor Holder</a> </li>
+<li>2 <a Class="bom" href="models/Stepper_Motor_Container/LightSheet_Remake-New_Axis_Cube.html">New Axis Cube</a> </li>
+<li>2 <a Class="bom" href="models/Stepper_Motor_Container/LightSheet_Remake-New_Axis_Cube_Top.html">New Axis Cube - Top</a> </li>
+<li>1 <a Class="bom" href="models/Stepper_Motor_Container/LightSheet_Remake-Objective_arm.html">Objective arm</a> </li>
+<li>2 <a Class="bom" href="UC2files.html">UC2 cubes</a> </li>
+</ul>
+</div>
+<p><img alt="" src="images/Stepper_Motor_Container/Stepper_Motor_Container.jpg" title="" /></p>
+<h2 id="assembly">Assembly</h2>
+<p><img alt="" src="images/Stepper_Motor_Container/stepper-motor.gif" title="" /></p>
+<h2 class="page-step" id="base-structure">Step 1: Base Structure:</h2>
+<ul>
+<li>As shown in the GIF, join 2 <a href="models/Stepper_Motor_Container/LightSheet_Remake-New_Axis_Cube.html">New Axis Cubes</a>, leaving its walls to the back, then add 2 <a href="UC2files.html">UC2 cubes</a>, generating an inverted "<strong>L</strong>" shaped structure.</li>
+</ul>
+<h2 class="page-step" id="place-the-guide-and-the-motor">Step 2: Place the guide and the motor:</h2>
+<ul>
+<li>Place the <a href="models/Stepper_Motor_Container/LightSheet_Remake-Inner_Motor_Holder.html">Inner Motor Holder</a> into the <a href="UC2files.html">UC2 cube</a> of the left.</li>
+</ul>
+<h2 class="page-step" id="stepper-motor-assembly">Step 3: Stepper motor assembly:</h2>
+<ol>
+<li>Join the <a href="parts/elect/linear-stepper-motor.html">Stepper Motor</a> with the <a href="parts/mech/Adapter_LBX40-21H4U.html">LBX40-21H4U adapter</a> using 4 <a href="parts/mech/M2.5-5.html">M2.5 x 5mm screws</a> and tight with the <a href="parts/tools/2mmBallEndAllenKey.html">allen key</a>.</li>
+</ol>
+<p><img alt="" src="images/Stepper_Motor_Container/stepper-parts.jpg" title="" /></p>
+<ol>
+<li>Take the assembled pieces and join the opposite side of the <a href="parts/mech/Adapter_LBX40-21H4U.html">LBX40-21H4U adapter</a> with the <a href="parts/mech/Axis-Control.html">Axis Control</a>, using 2 <a href="parts/mech/M2.5-5.html">M2.5 x 5mm screws</a></li>
+</ol>
+<p><img alt="" src="images/Stepper_Motor_Container/stepper-parts2.jpg" title="" /></p>
+<h2 class="page-step" id="place-the-stepper-axis-controlleraxis-control">Step 4: Place the <a href="parts/mech/Axis-Control.html">Stepper Axis Controller</a>:</h2>
+<ul>
+<li>Using the <a href="parts/tools/2.5mmBallEndAllenKey.html">Allen key</a> and 4 <a href="parts/mech/M3-12.html">M3 x 12mm screw</a> screw the <a href="parts/mech/Axis-Control.html">Axis Control</a> into the wall of the <a href="models/Stepper_Motor_Container/LightSheet_Remake-New_Axis_Cube.html">axis cube</a> on the edge.</li>
+</ul>
+<h2 class="page-step" id="objective-arm">Step 5: <a href="models/Stepper_Motor_Container/LightSheet_Remake-Objective_arm.html">Objective arm</a>:</h2>
+<ul>
+<li>Using 3 <a href="parts/mech/M3-10.html">M3 x 10mm screw</a> place the <a href="models/Stepper_Motor_Container/LightSheet_Remake-Objective_arm.html">Objective arm</a> with the <a href="parts/tools/2.5mmBallEndAllenKey.html">Allen key</a>, leave the middle screw pointing to the stepper motor.</li>
+</ul>
+<p><img alt="" src="images/Stepper_Motor_Container/objective-arm.jpg" title="" /></p>
+<h2 class="page-step" id="close-the-cubes">Step 6: Close the cubes:</h2>
+<p><img alt="" src="images/Stepper_Motor_Container/screws-new-cube.gif" title="" /></p>
+<ul>
+<li>Using the 2 <a href="models/Stepper_Motor_Container/LightSheet_Remake-New_Axis_Cube_Top.html">axis cube tops</a> close the <a href="models/Stepper_Motor_Container/LightSheet_Remake-New_Axis_Cube.html">new axis cubes</a>. For that take 4 <a href="parts/mech/M3-10.html">M3 x 10mm screw</a> and tight them with the <a href="parts/tools/2.5mmBallEndAllenKey.html">Allen key</a>, then do the same with the 2 <a href="UC2files.html" title="">UC2 cubes</a>.</li>
+</ul>
+<h2 class="page-step" id="the-objective">Step 7: The Objective:</h2>
+<p>Screw the desired <a href="parts/optics/objective.html">objective</a> in the <a href="models/Stepper_Motor_Container/LightSheet_Remake-Objective_arm.html">Objective arm</a></p>
+<p><img alt="" src="images/Stepper_Motor_Container/objective-arm-installed.jpg" title="" /></p>
+<h1 id="now-its-ready">Now it's ready!</h1>
+    </div>
+</div>
+<footer class="site-footer">
+    <div class="wrapper">
+        <a target="_blank" rel="noopener noreferrer" href="https://gitbuilding.io">
+    <img class="icon" src="./static/Logo/GitBuilding500x.png" alt="GitBuilding logo">
+    <span class="info">Documentation powered by GitBuilding</span>
+</a>
+    <p class="author">©2024 Tobias Wenzel, Bennedict Diederich, and Matías Hurtado-Labarca</p>
+    <p class="license">CLAVE Microscope is released under <a href="LICENSE.html">CERN-OHL-W-2.0</a>.</p>
+
+    </div>
+</footer></body>
+</html>
