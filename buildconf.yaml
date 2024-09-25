@@ -32,7 +32,7 @@ CustomCategories:
     DisplayName: Sub-Assemblies
     Reuse: false
 DefaultCategory: part
-HoverColor: '#555555'
+HoverColor: '#859cb9'
 License: CERN-OHL-W-2.0
 LicenseFile: LICENSE.md
 Navigation:
@@ -42,5 +42,5 @@ Navigation:
     Title: Prepare the pieces
   - Link: UC2files.md
     Title: Build your UC2
-PrimaryColor: '#f1502f'
-SecondaryColor: '#cccccc'
+PrimaryColor: '#2e3d5c'
+SecondaryColor: '#ffffff'
