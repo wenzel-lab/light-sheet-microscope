@@ -16,7 +16,7 @@ Appropriate technology open source light sheet microscope design, for 3d imaging
 #Build your own:
 
 ![](images/light-sheet.png)
-![](images/cube-arrangement.png)
+![](images/cube-arrangement-icons.jpg)
 
 
 ##Navigation:
