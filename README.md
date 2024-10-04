@@ -4,8 +4,9 @@
 ## **CLAVE:**  Cube-based Light-sheet Apparatus for Versatile 3D-imaging Experiments
 
 
-
-![](images/CLAVES.jpg)
+<p align="centre">
+<img src="./images/CLAVES.jpg" width="300">
+</p>
 
 
 Appropriate technology open source light sheet microscope design, for 3d imaging and high-throughput droplet cytometry. This is a modification of the OpenUC2 light sheet design - a project that can be explored by the [**website** ](https://openuc2.de/)and [**GitHub**](https://github.com/openUC2/UC2-GIT). This version has been developed as part of a [**crowd-funded project**](https://experiment.com/projects/developing-a-low-cost-high-sensitivity-solution-for-phage-viral-load-detection) on experiment.com by [Tobias Wenzel](https://librehub.github.io/people/tobias_wenzel/index.html) and [Benedict Diederich](https://openuc2.com/author/benedi/). In the Wenzel Lab, [Matías Hurtado](https://librehub.github.io/people/matias_hurtado/index.html) has also contributed to the design of several cubes, and the re-design of Inventor designs of [**UC2 cubes in OnShape.**](https://cad.onshape.com/documents/6ad90b1b9211810137d71b1d/w/b1b0cc05a0494bf4bc912f91/e/37e5ce9fc21af2a3e931ec46?configuration=Distances%3D0.03%2Bmeter&renderMode=0&uiState=668f4aab4587f461c0a71ce5)
