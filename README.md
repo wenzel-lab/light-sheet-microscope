@@ -11,16 +11,17 @@
 
 Appropriate technology open source light sheet microscope design, for 3d imaging and high-throughput droplet cytometry. This is a modification of the OpenUC2 light sheet design - a project that can be explored by the [**website** ](https://openuc2.de/)and [**GitHub**](https://github.com/openUC2/UC2-GIT). This version has been developed as part of a [**crowd-funded project**](https://experiment.com/projects/developing-a-low-cost-high-sensitivity-solution-for-phage-viral-load-detection) on experiment.com by [Tobias Wenzel](https://librehub.github.io/people/tobias_wenzel/index.html) and [Benedict Diederich](https://openuc2.com/author/benedi/). In the Wenzel Lab, [Matías Hurtado](https://librehub.github.io/people/matias_hurtado/index.html) has also contributed to the design of several cubes, and the re-design of Inventor designs of [**UC2 cubes in OnShape.**](https://cad.onshape.com/documents/6ad90b1b9211810137d71b1d/w/b1b0cc05a0494bf4bc912f91/e/37e5ce9fc21af2a3e931ec46?configuration=Distances%3D0.03%2Bmeter&renderMode=0&uiState=668f4aab4587f461c0a71ce5)
 
+### Work in progress:
+A key aspect in terms of quality and cost of the light sheet microscope design is the laser-engine. With the open source laser we still dind't get an even-enough light sheet (until we improve a fiber vibration module), so we now oped for a second hand single 488nm colour coherent fiber laser that provides a very high quality gaussian beam. With this laser, the light sheet works great. We are also still in the process of trying alternative objectives and cameras, as well as finalising the sample holder and testing reference samples.
 
 
-
-#Build your own:
+# Build your own:
 
 ![](images/light-sheet.png)
 ![](images/cube-arrangement.png)
 
 
-##Navigation:
+## Navigation:
 
  * [Parts Gallery](gallery.md)
 
@@ -30,7 +31,7 @@ Appropriate technology open source light sheet microscope design, for 3d imaging
 
 ---
 
-##Follow us:
+## Follow us:
 
   * [Twitter](https://twitter.com/WenzelLab), 
  * [YouTube](https://www.youtube.com/@librehub>), 
@@ -41,10 +42,10 @@ Appropriate technology open source light sheet microscope design, for 3d imaging
 * [IIBM website](https://ingenieriabiologicaymedica.uc.cl/en/people/faculty/821-tobias-wenzel)
 
 
-##Contribute:
+## Contribute:
 This is an open project in the Wenzel Lab in Santiago, Chile. If you have any suggestions to improve it or add  additional functions make a pull-request or [open an issue](https://github.com/wenzel-lab/light-sheet-microscope/issues/new). For interactions in our team and with the community applies the [GOSH Code of Conduct](https://openhardware.science/gosh-2017/gosh-code-of-conduct/).
 
 
 
-##License:
+## License:
 [CERN OHL 2W.](https://github.com/wenzel-lab/light-sheet-microscope/blob/main/LICENSE) This project is Open Source Hardware - please acknowledge us when using the hardware or sharing modifications.
