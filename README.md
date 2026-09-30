@@ -17,9 +17,17 @@ A key aspect in terms of quality and cost of the light sheet microscope design i
 
 # Build your own:
 
-![](images/light-sheet.png)
-![](images/cube-arrangement.png)
+<p align="centre">
+<img src="./images/light-sheet.png" width="500">
+</p>
 
+<p align="centre">
+<img src="./images/cube-arrangement.png" width="500">
+</p>
+
+<p align="centre">
+<img src="./images/CLAVE-light-sheet.jpg" width="500">
+</p>
 
 ## Navigation:
 
